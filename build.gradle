@@ -21,5 +21,5 @@ tasks.named('test') {
 }
 
 test {
-    maxHeapSize = "256m" //원하는 만큼 변경
+    maxHeapSize = "300m" //원하는 만큼 변경
 }
