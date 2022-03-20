@@ -23,6 +23,6 @@ public class HelloController {
     
     @GetMapping("/hello4")
     public String hello4() {
-        return "Hello World4!";
+        return "Hello World4 !";
     }
 }
