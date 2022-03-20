@@ -23,6 +23,11 @@ public class HelloController {
     
     @GetMapping("/hello4")
     public String hello4() {
-        return "Hello World4 !";
+        return "Hello World4!";
+    }
+    
+    @GetMapping("/hello5")
+    public String hello5() {
+        return "Hello World5!";
     }
 }
