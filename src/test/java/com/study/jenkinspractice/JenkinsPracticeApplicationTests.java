@@ -10,4 +10,8 @@ class JenkinsPracticeApplicationTests {
     void contextLoads() {
     }
 
+    @Test
+    void successTest(){}
+
+
 }
