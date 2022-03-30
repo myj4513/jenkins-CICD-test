@@ -1,5 +1,6 @@
 package com.study.jenkinspractice;
 
+import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -11,7 +12,11 @@ class JenkinsPracticeApplicationTests {
     }
 
     @Test
-    void successTest(){}
+    void successTest() {
+    }
 
-
+    @Test
+    void failTest() {
+        Assertions.assertThat(1).isEqualTo(2);
+    }
 }
