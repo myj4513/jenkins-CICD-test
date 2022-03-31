@@ -22,6 +22,7 @@ class JenkinsPracticeApplicationTests {
 
     @Test
     void failTest2() {
+        //hi
         Assertions.assertThat(1).isEqualTo(2);
     }
 }
